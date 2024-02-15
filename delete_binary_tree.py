@@ -29,6 +29,7 @@ def delete(root, key):
             temp = root.left
             root = None
             return temp
+        
         if root.left is None:
             temp = root.right
             root = None
