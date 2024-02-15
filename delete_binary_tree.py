@@ -19,6 +19,7 @@ def insert(root, key):
 def delete(root, key):
     if root is None:
         return root
+    
     if root.val < key:
         root.right = delete(root.right, key)
     elif root.val > key:
