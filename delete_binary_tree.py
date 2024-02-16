@@ -53,7 +53,6 @@ def visual(root, depth):
         print(3*depth * ' ', root.val)
         visual(root.left, depth+1)
         
-
 root = Node(15)
 new_nodes = [7, 1, 24, 19, 16, 27, 30]
 
