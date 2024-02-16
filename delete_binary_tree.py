@@ -63,4 +63,5 @@ for i in new_nodes:
 visual(root, 0)
 
 delete(root, 27)
+
 visual(root, 0)
